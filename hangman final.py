@@ -33,6 +33,12 @@ while score>0:
      if c==n:
          break                          # counter variable to exit the loop 
 
+for i in range(n):                      #to display whether the user wins or loose
+     if ans[i]==word[i]:
+          print('won',score)
+          break
+     else:
+          print('looser')
 
 
      
